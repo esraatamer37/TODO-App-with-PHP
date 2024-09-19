@@ -2,26 +2,26 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Light gray background */
-    color: #333; /* Dark gray text color */
+    background-color: #f4f4f9; 
+    color: #333; /* text color */
     line-height: 1.6;
 }
 
 
 /* Header styling */
 header {
-    background-color: #4a4a4a; /* Dark gray background for header */
-    color: #fff; /* White text color */
+    background-color: #4a4a4a;
+    color: #fff; 
     padding: 20px 0;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    text-align: center; /* Center text */
-    z-index: 1000; /* Ensure header is on top of other content */
+    justify-content: center; 
+    text-align: center;
+    z-index: 1000; /* Ensure header is on top of other content ✔️ */
 }
 
 header h1 {
@@ -35,15 +35,15 @@ h2 {
 
 /* Main content styling */
 main {
-    margin-top: 100px; /* Space for fixed header */
+    margin-top: 100px; 
     padding: 40px 0;
-    background-color: #fff; /* White background for main content */
+    background-color: #fff; 
 }
 
 /* Container styling */
 .container {
     width: 90%;
-    max-width: 1200px; /* Increased max-width for better layout */
+    max-width: 1200px; 
     margin: 0 auto;
     padding: 20px;
 }
@@ -51,20 +51,20 @@ main {
 /* Form fields styling */
 input[type="text"], input[type="password"], input[type="email"], textarea {
     width: 100%;
-    max-width: 500px; /* Max width for fields */
+    max-width: 500px; 
     padding: 12px;
     margin: 10px 0;
-    border: 1px solid #bdc3c7; /* Light border */
+    border: 1px solid #bdc3c7;
     border-radius: 5px;
     box-sizing: border-box;
-    background-color: #ffffff; /* White background for fields */
-    color: #333; /* Dark text color */
+    background-color: #ffffff; 
+    color: #333; 
 }
 
 /* Button styling */
 button, .btn {
-    background-color: #3498db; /* Blue color for buttons */
-    color: #ffffff; /* White text */
+    background-color: #3498db;
+    color: #ffffff; 
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
@@ -78,45 +78,45 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #2980b9; 
 }
 
 /* Secondary button styling */
 .btn-secondary {
-    background-color: #95a5a6; /* Gray color for secondary buttons */
+    background-color: #95a5a6; 
 }
 
 .btn-secondary:hover {
-    background-color: #7f8c8d; /* Darker gray on hover */
+    background-color: #7f8c8d; 
 }
 
 /* Table styling */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px; /* Space between header and table */
-    background-color: #ffffff; /* White background for table */
-    color: #333; /* Dark text color */
+    margin-top: 20px; 
+    background-color: #ffffff; 
+    color: #333; 
 }
 
 thead th {
-    background-color: #4CAF50; /* Green background for table headers */
-    color: #fff; /* White text color */
+    background-color: #4CAF50; 
+    color: #fff;
     padding: 12px;
     border-bottom: 2px solid #ddd;
 }
 
 tbody td {
     padding: 12px;
-    border-bottom: 1px solid #ddd; /* Light border */
+    border-bottom: 1px solid #ddd;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f2f2f2; /* Alternate row color */
+    background-color: #f2f2f2; 
 }
 
 tbody tr:hover {
-    background-color: #e0e0e0; /* Light gray on hover */
+    background-color: #e0e0e0; 
 }
 
 /* Fixed buttons */
@@ -132,7 +132,7 @@ tbody tr:hover {
 
 /* Spacer */
 .spacer {
-    height: 4cm; /* Space between content */
+    height: 4cm; /* making a Space between content!!! */
 }
 
 /* Center buttons */
@@ -144,8 +144,8 @@ tbody tr:hover {
 }
 
 .center-buttons .btn {
-    width: 160px; /* Set button width */
-    margin: 0 15px; /* Space between buttons */
+    width: 160px; 
+    margin: 0 15px; 
 }
 
 /* Fixed bottom center buttons */
@@ -160,8 +160,8 @@ tbody tr:hover {
 }
 
 .fixed-bottom-center .btn {
-    width: 180px; /* Larger button width */
-    margin: 0 15px; /* Space between buttons */
+    width: 180px; 
+    margin: 0 15px; 
 }
 
 /* Login page specific styling */
@@ -171,7 +171,7 @@ tbody tr:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f9; /* Same background color as body */
+    background-color: #f4f4f9; 
 }
 
 /* New animation for login container */
@@ -187,12 +187,12 @@ tbody tr:hover {
 .login-container {
     position: relative;
     width: 100%;
-    max-width: 400px; /* Max width for login container */
-    background-color: #ffffff; /* White background for form */
+    max-width: 400px; 
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    animation: moveToCenter 1s ease-out forwards; /* Apply the animation with forwards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    animation: moveToCenter 1s ease-out forwards; /* Apply the animation with forwards ✔️ */
 }
 
 
@@ -259,7 +259,7 @@ label[for="confirm_password"] {
 
 /* Ensure the animation only plays once for labels */
 label {
-    opacity: 0; /* Start hidden */
+    opacity: 0; /* Start hidden ✔️ */
     animation-fill-mode: forwards;
 }
 
